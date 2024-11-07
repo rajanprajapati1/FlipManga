@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import axios from 'axios';
 
 const API_BASE_URL = process.env.NODE_ENV !== 'development' 
-  ? 'https://api.mangadex.org' 
+  ? 'https://consumet-api-fork-three.vercel.app' 
   : 'http://localhost:3030';
 
 const PROVIDER = 'manga/mangadex/read';
